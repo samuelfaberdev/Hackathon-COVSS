@@ -10,7 +10,7 @@ import NotFound from "./pages/NotFound";
 import Footer from "./components/Footer";
 import axios from "axios";
 import "./App.css";
-import Loading from "./components/loading";
+import Loading from "./components/Loading";
 
 function App() {
   const castleLink = [];
