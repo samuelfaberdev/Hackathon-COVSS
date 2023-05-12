@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Vinchd.hubgithub.io/Hackathon-COVSS/",
+  "homepage": "https://samuelfaberdev.hubgithub.io/Hackathon-COVSS/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
