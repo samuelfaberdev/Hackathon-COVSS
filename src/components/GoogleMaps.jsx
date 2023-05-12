@@ -14,8 +14,9 @@ function GoogleMaps({ lat, lon }) {
     lat: lat,
     lng: lon,
   };
+  const MAPS_KEY = import.meta.env.VITE_MAPS_KEY;
   return (
-    <LoadScript googleMapsApiKey="AIzaSyAGVHYpyI9ZcYeRgcpK8LuglwX3N73BY3Q">
+    <LoadScript googleMapsApiKey={MAPS_KEY}>
       <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={7}>
         <Marker position={center} />
       </GoogleMap>
