@@ -1,7 +1,10 @@
 # Choîxteau - Hackathon - Code Quantum
-Projet Hackathon dont le sujet était simplement "les vacances" et dont la contrainte principale était le consommation d'une API publique.
+Projet Hackathon dont le sujet était simplement "les vacances" et dont la contrainte principale était la consommation d'une API publique.
 
-## Version original
+## Dev Team
+Chloé Elle, Oyhana Mahjoubi, Vincent Daviaud, Sébastien Birroleau, Samuel Faber
+
+## Version Original
 https://choixteau.netlify.app/
 
 ## Version Forked
