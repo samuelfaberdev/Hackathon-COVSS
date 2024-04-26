@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Vincent",
+    "image": "/assets/team/vincent.png",
+    "linkedin": "https://www.linkedin.com/in/vincent-daviaud-2786a120b/"
+  },
+  {
+    "name": "Chloé",
+    "image": "/assets/team/chloe.jpg",
+    "linkedin": "https://www.linkedin.com/in/chlo%C3%A9-elle-a2898a115/"
+  },
+  {
+    "name": "Samuel",
+    "image": "/assets/team/samuel.jpeg",
+    "linkedin": "https://www.linkedin.com/in/samuelfaberdev/"
+  },
+  {
+    "name": "Oyhana",
+    "image": "/assets/team/oyhana.png",
+    "linkedin": "https://www.linkedin.com/in/oyhana-mahjoubi-6a8798160/"
+  },
+  {
+    "name": "Sébastien",
+    "image": "/assets/team/sebastien.png",
+    "linkedin": "https://www.linkedin.com/in/s%C3%A9bastien-birolleau/"
+  },
+  {
+    "name": "Antho le BG",
+    "image": "/assets/team/antho.jpg",
+    "linkedin": "https://www.instagram.com/jule.gorski/"
+  }
+]

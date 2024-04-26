@@ -1,22 +1,10 @@
-import Konami from "konami";
-import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import team from "../utils/team.json";
 
-function Team() {
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    const easterEgg = new Konami(() => {
-      navigate("/team-egg");
-    });
-    console.info(easterEgg);
-  }, []);
-
+function TeamEgg() {
   return (
     <div className="flex max-sm:flex-col sm:flex-row sm:max-2xl:flex-wrap items-center justify-center mt-5">
       {team
-        .filter((element) => element.name !== "Antho le BG")
+        .filter((element) => element.name === "Antho le BG")
         .map((member) => (
           <div key={member.name}>
             <a
@@ -34,8 +22,9 @@ function Team() {
             </a>
           </div>
         ))}
+      <audio src="/assets/sound/bien.ogg" autoPlay></audio>
     </div>
   );
 }
 
-export default Team;
+export default TeamEgg;
