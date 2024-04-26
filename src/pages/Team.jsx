@@ -11,7 +11,7 @@ function Team() {
       navigate("/team-egg");
     });
     console.info(easterEgg);
-  }, []);
+  });
 
   return (
     <div className="flex max-sm:flex-col sm:flex-row sm:max-2xl:flex-wrap items-center justify-center mt-5">
