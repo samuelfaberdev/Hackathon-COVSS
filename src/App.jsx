@@ -1,16 +1,17 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { useEffect, useState } from "react";
-import { ToastContainer, Flip } from "react-toastify";
-import Navbar from "./components/Navbar";
-import Homepage from "./pages/Homepage";
-import Contact from "./pages/Contact";
-import Team from "./pages/Team";
-import CastleDetails from "./pages/CastleDetails";
-import NotFound from "./pages/NotFound";
-import Footer from "./components/Footer";
 import axios from "axios";
+import { useEffect, useState } from "react";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Flip, ToastContainer } from "react-toastify";
 import "./App.css";
+import Footer from "./components/Footer";
 import Loading from "./components/Loading";
+import Navbar from "./components/Navbar";
+import CastleDetails from "./pages/CastleDetails";
+import Contact from "./pages/Contact";
+import Homepage from "./pages/Homepage";
+import NotFound from "./pages/NotFound";
+import Team from "./pages/Team";
+import TeamEgg from "./pages/TeamEgg";
 
 function App() {
   const castleLink = [];
@@ -81,6 +82,7 @@ function App() {
           />
           <Route path="/contact" element={<Contact />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/team-egg" element={<TeamEgg />} />
           <Route
             path="/castledetails"
             element={<CastleDetails castle={castleTableDetails[indexCastle]} />}
